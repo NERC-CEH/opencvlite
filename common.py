@@ -566,7 +566,7 @@ def draw_points(pts, img=None, x=None, y=None, join=False, line_color=(0, 0, 0),
     return img_process
 
 
-def centroid(pts, dtype=_np.float):
+def centroid(pts, dtype=float):
     """(ndarray|list|tuple) -> 2-list
     Get centroid of pts as 2-list
 
